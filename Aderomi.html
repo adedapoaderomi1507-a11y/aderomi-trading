@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Aderomimarvellous$ Trading</title>
+  <meta name="description" content="Aderomi Trading — Trusted trading solutions for stocks, forex, crypto and commodities.">
+  <style>
+    :root{--bg:#0f1724;--card:#0b1220;--accent:#2563eb;--muted:#94a3b8;--glass: rgba(255,255,255,0.03)}
+    *{box-sizing:border-box}
+    body{margin:0;font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,'Helvetica Neue',Arial;background:linear-gradient(180deg,#071024 0%, #07172b 100%);color:#e6eef8;line-height:1.5}
+    .container{max-width:980px;margin:0 auto;padding:28px}
+
+    header{display:flex;align-items:center;justify-content:space-between;padding:12px 0}
+    .brand{display:flex;gap:12px;align-items:center}
+    .logo{width:52px;height:52px;border-radius:10px;display:grid;place-items:center;background:linear-gradient(135deg,var(--accent),#7c3aed);font-weight:700}
+    nav a{color:var(--muted);text-decoration:none;margin-left:16px;font-weight:600}
+
+    .hero{display:grid;grid-template-columns:1fr;gap:18px;padding:36px 0}
+    .hero h1{font-size:28px;margin:0}
+    .hero p{color:var(--muted);margin:6px 0 0}
+    .cta{margin-top:14px}
+    .btn{background:var(--accent);color:white;padding:10px 16px;border-radius:10px;border:0;font-weight:700;cursor:pointer}
+    .secondary{background:transparent;color:var(--muted);border:1px solid rgba(255,255,255,0.04);padding:9px 14px;border-radius:10px}
+
+    .grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:24px}
+    .card{background:var(--card);padding:16px;border-radius:12px;box-shadow:0 6px 18px rgba(0,0,0,0.5)}
+    .card h3{margin:0 0 8px}
+    .muted{color:var(--muted);font-size:14px}
+
+    .about{display:flex;gap:20px;align-items:center;margin-top:28px}
+    .about .text{flex:1}
+    .about .visual{width:220px;height:160px;border-radius:12px;background:linear-gradient(135deg,#0b2546,#04263b);display:grid;place-items:center}
+
+    form{margin-top:18px;display:grid;gap:8px}
+    input,textarea,select{background:var(--glass);border:1px solid rgba(255,255,255,0.04);padding:10px;border-radius:8px;color:inherit}
+
+    footer{margin-top:36px;padding:18px 0;border-top:1px solid rgba(255,255,255,0.03);display:flex;justify-content:space-between;align-items:center}
+    .socials{display:flex;gap:10px}
+    .chip{background:rgba(255,255,255,0.03);padding:8px 10px;border-radius:999px;font-size:14px}
+
+    /* responsive */
+    @media (max-width:880px){
+      .grid{grid-template-columns:repeat(2,1fr)}
+      .about{flex-direction:column}
+      .hero h1{font-size:22px}
+    }
+    @media (max-width:560px){
+      .grid{grid-template-columns:1fr}
+      nav a{display:none}
+      .brand small{display:none}
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="brand">
+        <div class="logo">A</div>
+        <div>
+          <div style="font-weight:800;letter-spacing:0.4px">Aderomimarvellous$ Trading</div>
+          <small class="muted">Professional trading & market intelligence</small>
+        </div>
+      </div>
+      <nav>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <section class="hero">
+      <div>
+        <h1>Smart trading. Clear strategy. Better results.</h1>
+        <p class="muted">Aderomimarvellous$ Trading helps you navigate stocks, forex, crypto and commodities with easy-to-follow plans, real market insights and practical risk management.</p>
+        <div class="cta">
+          <button class="btn" onclick="document.getElementById('contact').scrollIntoView({behavior:'smooth'})">Get Started</button>
+          <button class="secondary" onclick="window.open('mailto:adedapoaderomi1507@gmail.com')">Email Us</button>
+        </div>
+      </div>
+
+      <div style="display:grid;gap:12px;align-content:start">
+        <div class="card">
+          <h3>Why choose Aderomimarvellous$?</h3>
+          <p class="muted">Actionable trade ideas, simple educational content and a focus on capital preservation for beginners and experienced traders.</p>
+        </div>
+        <div class="card">
+          <h3>Live signals & analysis</h3>
+          <p class="muted">Real-time setups, chart snapshots and reasoning so you learn while you trade.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="services">
+      <h2 style="margin-top:10px">Our Services</h2>
+      <div class="grid">
+        <div class="card">
+          <h3>Stocks</h3>
+          <p class="muted">Company research, swing and intraday ideas, plus portfolio reviews.</p>
+        </div>
+        <div class="card">
+          <h3>Forex</h3>
+          <p class="muted">Currency pair setups, risk management plans and macro currency outlooks.</p>
+        </div>
+        <div class="card">
+          <h3>Crypto</h3>
+          <p class="muted">On-chain & technical insights, altcoin watchlists and position sizing guidance.</p>
+        </div>
+        <div class="card">
+          <h3>Commodities</h3>
+          <p class="muted">Trading ideas for gold, oil and agricultural products tied to global events.</p>
+        </div>
+        <div class="card">
+          <h3>Education</h3>
+          <p class="muted">Bite-sized lessons on candlesticks, indicators, and psychology.</p>
+        </div>
+        <div class="card">
+          <h3>Consulting</h3>
+          <p class="muted">1:1 strategy sessions and bespoke trading plans for active traders.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="about">
+      <div class="text">
+        <h2>About Aderomimarvellous$</h2>
+        <p class="muted">Aderomimarvellous$ Trading was founded to make markets accessible and less intimidating. We combine concise research, risk-first trade frameworks and practical education so traders can build consistent skills and protect capital.</p>
+        <ul class="muted">
+          <li>Clear trade rationales</li>
+          <li>Focus on risk & money management</li>
+          <li>Transparent performance tracking</li>
+        </ul>
+      </div>
+      <div class="visual">
+        <div style="text-align:center">
+          <strong>Start Trading</strong>
+          <div class="muted" style="font-size:13px;margin-top:6px">Replace this block with your gallery or logo</div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2 style="margin-top:20px">Contact & Join</h2>
+      <p class="muted">Want trade ideas, coaching or access to the community? Send us a message.</p>
+      <form onsubmit="event.preventDefault();alert('Thanks — your message was submitted (demo).');">
+        <input type="text" name="name" placeholder="Your name" required>
+        <input type="email" name="email" placeholder="Email address" required>
+        <select name="interest">
+          <option value="signals">Trade signals</option>
+          <option value="coaching">1:1 coaching</option>
+          <option value="education">Educational course</option>
+        </select>
+        <textarea name="message" rows="4" placeholder="How can we help? (e.g. budget, goals)"></textarea>
+        <div style="display:flex;gap:8px;margin-top:6px">
+          <button class="btn" type="submit">Send message</button>
+          <button class="secondary" type="button" onclick="window.open('https://tiktok.com')">Message on TikTok</button>
+        </div>
+      </form>
+    </section>
+
+    <footer>
+      <div class="chip">© Aderomi Trading</div>
+      <div class="socials">
+        <a class="muted" href="#">Twitter</a>
+        <a class="muted" href="#">TikTok</a>
+        <a class="muted" href="#">LinkedIn</a>
+      </div>
+    </footer>
+  </div>
+
+  <script>
+    // small enhancement: smooth scroll for older browsers
+    document.querySelectorAll('a[href^="#"]').forEach(a=>{
+      a.addEventListener('click',e=>{
+        e.preventDefault();
+        const t=document.querySelector(a.getAttribute('href'));
+        if(t) t.scrollIntoView({behavior:'smooth'});
+      });
+    });
+  </script>
+</body>
+</html>
